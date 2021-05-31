@@ -1,15 +1,20 @@
 #include <stdio.h>
 
-int main(void) {
- int a, b, c, d;
- a=6;
- b=++a;
- c=--b;
- d=b+1;
- d=d*5+5-a*b+c;
- a=b%3;
- a=c*-a;
- d=d*(c+2*(a+b));
- printf("a: %d\nb: %d\nc: %d\nd: %d");
-return 0;
+main() {
+
+ 
+int a, b, c, d, e;
+double media;
+
+
+printf("digite 5 valores inteiros:");
+scanf("%d",& a);
+scanf("%d",& b);
+scanf("%d",& c);
+scanf("%d",& d);
+scanf("%d",& e);
+
+media=(a+b+c+d+e)/5.0;
+printf("media dos valores: %f", media);
+ 
 }
