@@ -9,13 +9,9 @@ scanf("%d",& a);
 
 
 b=a/2;
-
 c=a/5;
-
 d=a/10;
-
 e=a/50;
-
 f=a/100;
 
 printf("%d moedas de 1 real\n",a);
