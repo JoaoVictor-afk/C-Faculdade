@@ -26,8 +26,7 @@ struct fracao reduce(const struct fracao val){
 }
 
 
-int
-main() {
+int main() {
 	struct fracao val;
   
   char buff[4][56];
