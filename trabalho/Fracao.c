@@ -33,29 +33,29 @@ int main() {
 	
 	int x[2], y[2], r;
 	
-	for(size_t k = 0; k < 4; k++)
+	for(size_t i = 0; i < 4; i++)
 	{
 		printf("\n%ld) Valor: ", (k+1));
-		fgets(buff[k], sizeof(buff[k]), stdin);
+		fgets(buff[i], sizeof(buff[i]), stdin);
 		
 		if (k == 0)
 		{
-			x[0] = atoi(buff[k]);
+			x[0] = atoi(buff[i]);
 			r = test(x[0]);
 		}
 		else if (k == 1)
 		{
-			x[1] = atoi(buff[k]);
+			x[1] = atoi(buff[i]);
 			r = test(x[1]);
 		}
 		else if (k == 2)
 		{
-			y[0] = atoi(buff[k]);
+			y[0] = atoi(buff[i]);
 			r = test(y[0]);
 		}
 		else if (k == 3)
 		{
-			y[1] = atoi(buff[k]);
+			y[1] = atoi(buff[i]);
 			r = test(y[1]);
 		}
 
